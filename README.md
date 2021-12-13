@@ -2,7 +2,7 @@
 
 https://user-images.githubusercontent.com/188568/142045700-091d598f-5b1a-48fa-9278-6b8d3e712907.mp4
 
-## 🛵 ◍ Demo: https://create-dapp-solana-nextjs.vercel.app/
+## 🛵 ◍ Demo:
 
 This project includes:
 
