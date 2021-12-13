@@ -1,64 +1,49 @@
-Contribution: 2021-11-28 20:00
+# Create Solana Dapp with Next.JS
 
-Contribution: 2021-11-28 20:01
+https://user-images.githubusercontent.com/188568/142045700-091d598f-5b1a-48fa-9278-6b8d3e712907.mp4
 
-Contribution: 2021-11-29 20:00
+## 🛵 ◍ Demo: https://create-dapp-solana-nextjs.vercel.app/
 
-Contribution: 2021-11-29 20:01
+This project includes:
 
-Contribution: 2021-11-29 20:02
+- Next.JS
+- TypeScript
+- [@solana/wallet-adapter](https://github.com/solana-labs/wallet-adapter) and [@solana/web3.js](https://solana-labs.github.io/solana-web3.js) for interactions with wallets & blockchain.
+- Tailwind CSS (with [daisyUI](https://daisyui.com/))
 
-Contribution: 2021-11-30 20:00
+## Getting Started
 
-Contribution: 2021-11-30 20:01
+First, run the development server:
 
-Contribution: 2021-11-30 20:02
+```bash
+yarn
+yarn run dev
+```
 
-Contribution: 2021-11-30 20:03
+// TODO
+If you deploy new Candy Machine you can update UI config here: `./src/config/candy-machine.config.js`.
 
-Contribution: 2021-11-30 20:04
+## Style
 
-Contribution: 2021-11-30 20:05
+[Tailwind CSS](https://tailwindcss.com/) or [daisyUI](https://daisyui.com/) are selected tools for rapid style development.
 
-Contribution: 2021-11-30 20:06
+You can quickly change theme changing `daisy.themes` within `./tailwind.config.js`.
+More info here: https://daisyui.com/docs/default-themes
 
-Contribution: 2021-11-30 20:07
+This app encourage you to use CSS Modules over other style technics (like SASS/LESS, Styled Components, usual CSS).
+It have modular nature and supports modern CSS. [Read more on Next.JS site](https://nextjs.org/docs/basic-features/built-in-css-support).
+Anyway, if you want to connect LESS there is example code in `./next.config.js`
 
-Contribution: 2021-12-01 20:00
+## Deploy on Vercel
 
-Contribution: 2021-12-01 20:01
+Before push run localy `npm run build` to make sure app can be build succesffully on vercel .
 
-Contribution: 2021-12-01 20:02
+Vercel will automatically create environment and deployment for you if you have vercel account connected to your GitHub account. Go to the vercel.com to connect it.
+Then any push to `main` branch will automatically rebuild and redploy app.
 
-Contribution: 2021-12-01 20:03
+## Templates
 
-Contribution: 2021-12-01 20:04
+This boilerplate includes some templates you may find useful:
 
-Contribution: 2021-12-01 20:05
-
-Contribution: 2021-12-01 20:06
-
-Contribution: 2021-12-01 20:07
-
-Contribution: 2021-12-01 20:08
-
-Contribution: 2021-12-02 20:00
-
-Contribution: 2021-12-02 20:01
-
-Contribution: 2021-12-02 20:02
-
-Contribution: 2021-12-02 20:03
-
-Contribution: 2021-12-02 20:04
-
-Contribution: 2021-12-02 20:05
-
-Contribution: 2021-12-02 20:06
-
-Contribution: 2021-12-02 20:07
-
-Contribution: 2021-12-02 20:08
-
-Contribution: 2021-12-02 20:09
-
+- NFT Gallery Template
+- Candy Machine Mint Website (based on [https://github.com/exiled-apes/candy-machine-mint](https://github.com/exiled-apes/candy-machine-mint))
